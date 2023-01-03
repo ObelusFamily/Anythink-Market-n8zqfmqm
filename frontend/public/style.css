@@ -5,7 +5,7 @@ body {
   font-family: "Inter", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimi zeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: "kern" 1, "liga" 1;
   font-feature-settings: "kern" 1, "liga" 1;
