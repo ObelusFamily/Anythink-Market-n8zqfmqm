@@ -29,7 +29,7 @@ const ItemPreview = (props) => {
     }
   };
 
-  const imgSrc = this.props.item.image
+  const imgSrc = item.image
 
   return (
     <div
