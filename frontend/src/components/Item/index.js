@@ -43,14 +43,14 @@ class Item extends React.Component {
       this.props.currentUser &&
       this.props.currentUser.username === this.props.item.seller.username;
       
-    const imageSrc = this.props.item.image
+    const imgSrc = this.props.item.image
     return (
       <div className="container page" id="item-container">
         <div className="text-dark">
           <div className="row bg-white p-4">
             <div className="col-6">
               <img
-                src= {imageSrc ? imageSrc : "../../../placeholder.png"}                
+                src= {imgSrc ? imgSrc : "../../../placeholder.png"}                
 
                 alt={this.props.item.title}
                 className="item-img"
